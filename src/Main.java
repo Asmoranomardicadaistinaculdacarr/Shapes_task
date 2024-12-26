@@ -14,9 +14,6 @@ public class Main {
             System.out.println("Triangle Area: " + triangle.area());
             System.out.println("Triangle Perimeter: " + triangle.perimeter());
 
-            // Uncomment to test exception
-            // Triangle invalidTriangle = new Triangle(1, 2, 3);
-
         } catch (RuntimeException e) {
             System.out.println(e.getMessage());
         }
